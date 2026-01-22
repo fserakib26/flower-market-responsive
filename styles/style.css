@@ -189,13 +189,16 @@ header>nav>ul>li>i{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 28px;
     row-gap: 25px;
+    border-radius: 14px;
 }
 
 .gallary_card{
     position: relative;
+    
 }
 .gallary_card img{
     display: block;
+    border-radius: 14px;
 }
 /* Blakish Overlay */
 .gallary_card::before{
@@ -203,7 +206,12 @@ header>nav>ul>li>i{
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.507);
-   z-index: 1;
+    z-index: 1;
+    border-radius: 14px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    
 }
 
 
@@ -216,6 +224,7 @@ header>nav>ul>li>i{
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 
