@@ -121,11 +121,54 @@ header>nav>ul>li>i{
 }
 
 .card>button{
-    padding: 26px 50px;
+    padding: 15px 0px;
     font-size: 1rem;
     font-weight: 600;
     width: 100%;
     color: #FFFFFF;
     background-color: #E95A08;
     border: none;
+}
+
+/* Trusted Section */
+.trusted_section{
+    display: flex;
+    padding-top: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trusted_img{
+    position: relative;
+}
+
+.trusted_badge{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 98%;
+    top: 4%;
+    transform: translate(-50%, -50%);
+}
+
+.trusted_content{
+    padding-left: 62px;
+    
+}
+
+.trusted_content h2{
+    font-size: 3.1rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+
+.trusted_content ul{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.507);
+    
+}
+.trusted_content ul li{
+    padding-bottom: 20px;
+    text-align: justify;    
 }
