@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #F5F8FF;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+header>nav>div{
+    max-width: 135px;
+    height: auto;
+}
+
+header>nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 48px;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+header>nav>ul>li>i{
+    padding-right: 10px;
+}
+
+
+
+.active{
+    color: #252432;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.active2{
+    color: #252432;
+    font-weight: 400;
+    font-size: 1rem;
+}
