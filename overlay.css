@@ -1,0 +1,33 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallary_card{
+    position: relative;
+}
+
+/* blackish overlay */
+.gallary_card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.692);
+    z-index: 1;
+}
+
+/* text */
+.gallary_card .gallary_content{
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

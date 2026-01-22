@@ -172,3 +172,74 @@ header>nav>ul>li>i{
     padding-bottom: 20px;
     text-align: justify;    
 }
+
+/* Deals Section */
+.deals_section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+/* deals galary */
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 28px;
+    row-gap: 25px;
+}
+
+.gallary_card{
+    position: relative;
+}
+.gallary_card img{
+    display: block;
+}
+/* Blakish Overlay */
+.gallary_card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.507);
+   z-index: 1;
+}
+
+
+.gallary_card .gallary_content{
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.gallary_content h3{
+    font-size:1.3rem ;
+    
+}
+.gallary_content .bold{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.gallary_content .bold2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.gallary_content span{
+    font-size:1rem ;
+    text-decoration: underline;
+    
+}
+
+.gallery .gallary_card:nth-child(2){
+    grid-column: span 2;
+    grid-row: span 2;   
+}
+
