@@ -312,3 +312,32 @@ header>nav>ul>li>i{
     color: #FFFFFF;
         
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+
+.footer_menu ul{
+    list-style: none;
+    display: inline-block;
+    
+   
+}
+
+.footer_menu ul li{
+    display: inline-block;
+}
+
+.footer_menu ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #8987A1;
+    /* display: inline-block; */
+    
+}
