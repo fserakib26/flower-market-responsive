@@ -292,7 +292,7 @@ header>nav>ul>li>i{
 
 
 
-.subscribe_section>div>input[type= "text"]{
+.subscribe_section>div>input[type= "email"]{
     background-color: #F5F8FF;
     padding: 15px 20px;
     font-size: 1rem;
@@ -302,6 +302,14 @@ header>nav>ul>li>i{
     width: 600px;
     
 }
+
+
+.subscribe_section>div>input:focus{
+  background-color: #E95A08;
+  color: #FFFFFF; 
+  outline: none; 
+}
+
 
 .subscribe_section>div>button{
     background-color: #E95A08;
@@ -313,31 +321,42 @@ header>nav>ul>li>i{
         
 }
 
+
 footer{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 150px;
+    align-items: center;    
     padding-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
     
+}
+
+.footer_logo{
+    width: 35%;
+} 
+
+.footer_logo img{
+    padding-bottom: 16px;
 }
 
 .footer_menu ul{
     list-style: none;
-    display: inline-block;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;    
    
 }
 
-.footer_menu ul li{
-    display: inline-block;
-}
 
 .footer_menu ul li a{
     text-decoration: none;
     font-size: 1rem;
-    color: #8987A1;
-    /* display: inline-block; */
-    
+    color: #8987A1;   
+}
+
+.social_icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
