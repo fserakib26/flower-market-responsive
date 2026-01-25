@@ -252,3 +252,63 @@ header>nav>ul>li>i{
     grid-row: span 2;   
 }
 
+
+/* Subscribe Section */
+.sub_bg{
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 533px;
+    position: relative;
+}
+
+.subscribe_section{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+.subscribe_section h2{
+    font-size: 3.3rem ;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.subscribe_section>div{
+    display: flex;
+    margin-top: 23px;
+}
+
+
+
+.subscribe_section>div>input[type= "text"]{
+    background-color: #F5F8FF;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    color: #8987A1;
+    width: 600px;
+    
+}
+
+.subscribe_section>div>button{
+    background-color: #E95A08;
+    padding: 15px 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    color: #FFFFFF;
+        
+}
